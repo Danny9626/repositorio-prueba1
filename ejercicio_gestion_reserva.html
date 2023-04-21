@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GESTION_RESERVA</title>
+</head>
+<body>
+    <h1>SISTEMA DE GESTIÓN DE DE RESERVAS</h1>
+    <form action="resultados.html" method="psot" accept-charset="utf-8"></form>
+    <fieldset>
+        <legend>Informacion para registro del usuario</legend>
+        <label for="name">Nombre: </label>
+        <input id="name" type="text" placeholder="Nombre" autocomplete="on" required><br><br>
+        <label for="email">Correo Electrónico: </label>
+        <input id="email" type="email" placeholder="Correo" autocomplete="on" required><br><br>
+        <label for="name">Número: </label>
+        <input id="name" type="text" placeholder="Nombre" autocomplete="on" required><br><br>
+        <label for="name">Fecha de Reserva </label>
+        <input type="date" id="start" name="trip-start" value="2023-04-04" min="2022-01-01" max="2023-12-31"><br><br>
+        <label for="name">Hora de Reserva </label>
+        <input type="time" id="Hora" name="Hora" value="12:00" min="12:00" max="22:00" pattern="[0-9]{2}:[0-9]{2}"> <br><br>
+        <label for="name">Comensales (Minimo 1, Maximos 10): </label>
+        <input type="tel" id="start" name="trip-start" value="0" min="1" max="10"> <br><br>
+        <label for="name">Color del mantel </label>
+        <input type="color" id="start" name="trip-start" > <br><br>
+        <label for="name">Comentarios especiales :</label>
+        <input type="text" id="start" name="trip-start" placeholder="Alergias,Enfermedades, ..." > <br><br>
+        <p>Menú:</p>
+        <input type="radio" id="Vegetariano" name="Menú" value="Vegetariano">
+        <label for="Vegetariano">Vegetariano</label><br>
+        <input type="radio" id="Picante" name="Menú" value="Picante">
+        <label for="Picante">Picante</label><br>
+        <input type="radio" id="masculino" name="Menú" value="Especial">
+        <label for="Especial">Especial</label><br><br>
+        <input type="button" id="boton1" name="Enviar" value="Enviar"> 
+    </fieldset>
+</body>
+</html>
